@@ -3,7 +3,7 @@
 <h1>
 <p align="center">
   <img src="src/main/resources/images/Accommodation Booking Service logo.png" alt="Project Logo" width="200"/>
-  <br>Accommodation Booking Service
+  <br>NestNook
 </h1>
 
 <p align="center">
@@ -27,7 +27,7 @@ Our mission was to develop an advanced online rental management system for housi
 
 ## Technologies and Tools Used
 
-- **Spring Boot v3.3.4**: To create a stand-alone, production-grade Spring-based application.
+- **Spring Boot v3.3.4**: To create a stand-alone, production-grade, Spring-based application.
 - **Spring Security v3.3.4**: To handle authentication and authorization.
 - **Spring Data JPA v3.3.4**: For database operations.
 - **Swagger v2.1.0**: For API documentation.
@@ -53,7 +53,7 @@ Our mission was to develop an advanced online rental management system for housi
 
 1. **Clone this repository:**
     ```sh
-    git clone https://github.com/4Vitalii5/booking-service.git
+    git clone https://github.com/4Vitalii5/nest-nook.git
     ```
 2. **Set up Environment Variables**
 
@@ -70,7 +70,7 @@ Our mission was to develop an advanced online rental management system for housi
 
 1. Create a Docker image:
     ```sh
-    docker build -t booking-service .
+    docker build -t nest-nook .
     ```
 2. Run the Docker container:
     ```sh
@@ -86,7 +86,7 @@ Our mission was to develop an advanced online rental management system for housi
 1. **Real-Time Property Availability**:
 
    - **Challenge:** Ensuring accurate real-time property availability was difficult due to inefficient database queries.
-   - **Solution:** An effective database schema was developed and implemented and queries were optimized, which allowed
+   - **Solution:** An effective database schema was developed and implemented, and queries were optimized, which allowed
      us to quickly obtain up-to-date information about real estate availability in real time.
 
 2. **Payment Processing**:
@@ -124,11 +124,11 @@ Our mission was to develop an advanced online rental management system for housi
 
 ## Postman Collection
 
-For easy testing and interaction with the API, you can use the Postman collection containing all necessary requests.
+For easy testing and interaction with the API, you can use the Postman collection, which contains all necessary requests.
 
 ### 🚀Usage
 
-1. Open Postman and import the [Bokking_App.postman_collection.json](src/main/resources/postman/Booking_App.postman_collection.json).
+1. Open Postman and import the [NestNook.postman_collection.json](src/main/resources/postman/Booking_App.postman_collection.json).
 2. Navigate to the imported Accommodation Booking Service collection.
 3. Execute the necessary requests using the appropriate methods and parameters.
 
@@ -148,7 +148,7 @@ For easy testing and interaction with the API, you can use the Postman collectio
 ## 📝 License
 
 Copyright © 2025 [Vitalii Pavlyk](https://github.com/4Vitalii5).<br />
-This project is [MIT](https://github.com/4Vitalii5/booking-app/blob/631f606cff931baeebb3458c3022d033bc5466ac/LICENSE) licensed.
+This project is [MIT](https://github.com/4Vitalii5/nest-nook/blob/master/LICENSE) licensed.
 
 ## Happy Coding!
 

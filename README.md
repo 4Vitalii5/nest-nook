@@ -129,7 +129,7 @@ For easy testing and interaction with the API, you can use the Postman collectio
 ### 🚀Usage
 
 1. Open Postman and import the [NestNook.postman_collection.json](src/main/resources/postman/Booking_App.postman_collection.json).
-2. Navigate to the imported Accommodation Booking Service collection.
+2. Navigate to the imported NestNook collection.
 3. Execute the necessary requests using the appropriate methods and parameters.
 
 > **Note:** Before using the requests, ensure that your local server is running, and you have access to the database.
